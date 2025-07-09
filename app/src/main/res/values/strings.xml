@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gaple Strategist</string>
+    <string name="nav_header_desc">Navigation header</string>
+    
+    <!-- Gaple Rules -->
+    <string name="gaple_rules">
+        Gaple is a traditional Indonesian domino game played with a set of 28 double-six dominoes.\n\n
+        
+        <b>Setup:</b>\n
+        • 2-4 players\n
+        • Each player gets 7 dominoes\n
+        • Remaining dominoes form the boneyard\n\n
+        
+        <b>Starting:</b>\n
+        • Player with highest double starts\n
+        • If no doubles, player with highest value domino starts\n
+        • First domino can be placed in any orientation\n\n
+        
+        <b>Playing:</b>\n
+        • Players take turns adding dominoes to either end\n
+        • Domino values must match the end values\n
+        • If unable to play, draw from boneyard\n
+        • If boneyard is empty, pass turn\n\n
+        
+        <b>Winning:</b>\n
+        • First player to use all dominoes wins\n
+        • If game is blocked, player with lowest hand value wins\n
+        • Winner scores points equal to sum of all opponents\' remaining dominoes
+    </string>
+    
+    <!-- Strategy Tips -->
+    <string name="strategy_tips">
+        <b>Opening Strategy:</b>\n
+        • Play highest double first if possible\n
+        • Control the game by playing dominoes that limit opponents\n
+        • Keep track of played dominoes\n\n
+        
+        <b>Mid-game Strategy:</b>\n
+        • Block opponents by playing dominoes they can\'t match\n
+        • Keep a variety of pip values in your hand\n
+        • Watch for patterns in opponents\' plays\n\n
+        
+        <b>End-game Strategy:</b>\n
+        • Play high-value dominoes early\n
+        • Keep low-value dominoes for the end\n
+        • Count remaining dominoes to predict opponents\' hands\n\n
+        
+        <b>Advanced Tips:</b>\n
+        • Remember which dominoes have been played\n
+        • Force opponents to draw from boneyard\n
+        • Use doubles strategically to change game flow\n
+        • Calculate probability of opponents having specific dominoes
+    </string>
+    
+    <!-- Scoring System -->
+    <string name="scoring_system">
+        <b>Basic Scoring:</b>\n
+        • Winner gets points equal to sum of all opponents\' remaining dominoes\n
+        • Each domino\'s value is the sum of its pips\n
+        • Doubles count as their full value\n\n
+        
+        <b>Point Values:</b>\n
+        • 0-0 = 0 points\n
+        • 1-0 = 1 point\n
+        • 1-1 = 2 points\n
+        • 2-0 = 2 points\n
+        • And so on...\n\n
+        
+        <b>Special Scoring:</b>\n
+        • "Gaple" (winning with 0-0) = Double points\n
+        • Blocked game: Player with lowest hand value wins\n
+        • Tournament play: Usually first to 100 or 150 points\n\n
+        
+        <b>Penalty Points:</b>\n
+        • If you can\'t play and boneyard is empty, you get penalty points\n
+        • Penalty equals your remaining hand value
+    </string>
+    
+    <!-- Common strings -->
+    <string name="camera_permission_required">Camera permission is required for domino recognition</string>
+    <string name="game_ended">Game has ended</string>
+    <string name="new_game">New Game</string>
+    <string name="reset_scores">Reset Scores</string>
+    <string name="add_player">Add Player</string>
+    <string name="player_name">Player Name</string>
+    <string name="score">Score</string>
+    <string name="total_games">Total Games</string>
+    <string name="wins">Wins</string>
+    <string name="strategy_advice">Strategy Advice</string>
+    <string name="best_move">Best Move</string>
+    <string name="domino_recognition">Domino Recognition</string>
+    <string name="manual_input">Manual Input</string>
+    <string name="game_history">Game History</string>
+    <string name="clear_history">Clear History</string>
+    <string name="no_games_played">No games played yet</string>
+    <string name="game_tips">Game Tips</string>
+    <string name="calculate_score">Calculate Score</string>
+    <string name="hand_value">Hand Value</string>
+    <string name="dominoes_left">Dominoes Left</string>
+    <string name="current_player">Current Player</string>
+    <string name="game_state">Game State</string>
+    <string name="playable_dominoes">Playable Dominoes</string>
+    <string name="left_end">Left End</string>
+    <string name="right_end">Right End</string>
+</resources>
